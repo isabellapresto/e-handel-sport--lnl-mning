@@ -1,0 +1,12 @@
+2023-04-24T03:53:56+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-24T06:57:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-24T07:41:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/RelatedProducts.php på rad 13
+
+2023-04-24T08:37:06+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1052672 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-includes/SimplePie/Parser.php på rad 175
+
+2023-04-24T09:55:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-24T13:02:35+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 118784 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-admin/includes/admin.php på rad 37
+

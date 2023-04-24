@@ -1,0 +1,16 @@
+2023-04-23T17:02:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-23T17:03:43+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductDetails.php på rad 1
+
+2023-04-23T17:03:54+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/RelatedProducts.php på rad 90
+
+2023-04-23T19:17:03+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-block-editor-extensions.php på rad 1
+
+2023-04-23T19:23:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-block-editor-extensions.php på rad 1
+
+2023-04-23T19:23:59+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/RelatedProducts.php på rad 90
+
+2023-04-23T19:24:06+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/RelatedProducts.php på rad 90
+
+2023-04-23T19:24:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+

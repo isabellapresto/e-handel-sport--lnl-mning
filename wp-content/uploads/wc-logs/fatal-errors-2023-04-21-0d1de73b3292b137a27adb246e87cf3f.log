@@ -1,0 +1,224 @@
+2023-04-21T08:26:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T08:54:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-frontend.asset.php på rad 1
+
+2023-04-21T09:04:40+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 655360 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/mo.php on line 302
+
+2023-04-21T09:06:29+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/mailpoet/lib/Config/Capabilities.php på rad 79
+
+2023-04-21T09:06:59+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T09:15:02+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T09:16:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T09:17:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "change_header_background_color" not found or invalid function name in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(3049): do_action('wp_head')
+#3 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/header.php(21): wp_head()
+#4 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(783): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/single.php(10): get_header()
+#8 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(785): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/page.php(15): get_template_part('single')
+#12 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/e-handel-sport/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/e-handel-sport/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-21T09:17:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "change_header_background_color" not found or invalid function name in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(3049): do_action('wp_head')
+#3 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/header.php(21): wp_head()
+#4 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(783): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/single.php(10): get_header()
+#8 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(785): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/page.php(15): get_template_part('single')
+#12 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/e-handel-sport/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/e-handel-sport/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-21T09:17:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "change_header_background_color" not found or invalid function name in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(3049): do_action('wp_head')
+#3 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/header.php(21): wp_head()
+#4 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(783): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/single.php(10): get_header()
+#8 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(785): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/page.php(15): get_template_part('single')
+#12 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/e-handel-sport/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/e-handel-sport/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-21T09:18:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "change_header_background_color" not found or invalid function name in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(3049): do_action('wp_head')
+#3 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/header.php(21): wp_head()
+#4 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(783): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/single.php(10): get_header()
+#8 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(785): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/page.php(15): get_template_part('single')
+#12 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/e-handel-sport/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/e-handel-sport/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-21T09:18:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "change_header_background_color" not found or invalid function name in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(3049): do_action('wp_head')
+#3 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/header.php(21): wp_head()
+#4 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(783): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/single.php(10): get_header()
+#8 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(785): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/page.php(15): get_template_part('single')
+#12 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/e-handel-sport/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/e-handel-sport/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-21T09:18:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "change_header_background_color" not found or invalid function name in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(3049): do_action('wp_head')
+#3 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/header.php(21): wp_head()
+#4 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(783): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/single.php(10): get_header()
+#8 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(785): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template.php(718): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/e-handel-sport/wp-content/themes/blocksy/page.php(15): get_template_part('single')
+#12 /Applications/MAMP/htdocs/e-handel-sport/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/e-handel-sport/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/e-handel-sport/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/e-handel-sport/wp-includes/class-wp-hook.php på rad 308
+
+2023-04-21T09:23:06+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T09:25:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-block-editor-extensions.php på rad 1
+
+2023-04-21T09:43:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T09:43:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T09:44:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1587
+
+2023-04-21T09:46:01+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:22:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryTaxesBlock.php på rad 1
+
+2023-04-21T10:42:04+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:42:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:42:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:42:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:42:41+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:43:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:46:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:46:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:46:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:46:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:46:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:49:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1849
+
+2023-04-21T10:51:00+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1326
+
+2023-04-21T10:51:01+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T10:53:46+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T10:54:53+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductQuery.php på rad 423
+
+2023-04-21T10:55:55+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T10:56:02+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1587
+
+2023-04-21T10:56:11+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1587
+
+2023-04-21T11:00:48+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1326
+
+2023-04-21T11:00:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1326
+
+2023-04-21T11:02:09+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T11:02:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryTaxesBlock.php på rad 1
+
+2023-04-21T11:04:40+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryTaxesBlock.php på rad 1
+
+2023-04-21T11:06:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1326
+
+2023-04-21T11:06:25+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T11:08:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T11:08:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryTaxesBlock.php på rad 1
+
+2023-04-21T11:09:16+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart.asset.php på rad 1
+
+2023-04-21T11:09:34+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryTaxesBlock.php på rad 1
+
+2023-04-21T11:09:46+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 761856 bytes) in /Applications/MAMP/htdocs/e-handel-sport/wp-includes/pomo/streams.php on line 229
+
+2023-04-21T11:10:56+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T11:11:55+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartTotalsBlock.php på rad 14
+
+2023-04-21T11:11:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 641
+
+2023-04-21T11:13:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductQuery.php på rad 423
+
+2023-04-21T11:13:26+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-compat/lib/locales.php på rad 1326
+
+2023-04-21T12:45:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-block-editor-extensions.php på rad 1
+
+2023-04-21T12:55:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) i /Applications/MAMP/htdocs/e-handel-sport/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryTaxesBlock.php på rad 1
+
